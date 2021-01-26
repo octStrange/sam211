@@ -7,7 +7,7 @@ def index():
     return 'Welcome to Flask <a href="/home">Click Here</a>'
     
 @app.route('/home')
-def index():
+def home():
     return 'Home page'
 
 if __name__ == "__main__":
